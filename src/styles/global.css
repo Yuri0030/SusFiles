@@ -1,0 +1,23 @@
+body {
+    background-color: #C1CEFE;
+    font-family: Georgia, serif;
+    margin: 0;
+}
+
+.title {
+    color: #624CAB;
+}
+
+.subtitle {
+    color: #758ECD;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.error-message {
+    color: #FF0000;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-family: Georgia, serif;
+}

@@ -1,0 +1,42 @@
+.multi-select {
+    position: relative;
+    width: 500px;
+}
+
+.multi-select-button {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.multi-select-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 4px;
+    z-index: 10;
+}
+
+.multi-select-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.multi-select-option:hover {
+    background-color: #f0f0f0;
+}
+
+.multi-select-option span {
+    width: 200px;
+}
